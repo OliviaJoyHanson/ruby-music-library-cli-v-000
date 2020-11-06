@@ -4,7 +4,7 @@ class Artist
   extend Concerns::Findable
 
   attr_reader :name
-  
+
   @@all = []
 
   def initialize(name)
