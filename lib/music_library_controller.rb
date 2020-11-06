@@ -68,7 +68,7 @@ class MusicLibraryController
     if input >= 1 && input <= list_songs.length
       artist_name = list_songs[input].split(" - ")[1]
       song_name = list_songs[input].split(" - ")[2]
-      puts "Playing #{list_songs[input]}"
+      puts "Playing #{song_name} by #{artist_name}"
     end
   end
 
